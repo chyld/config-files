@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo ifdown eth0
+sleep 3s
+sudo ifup eth0
+sleep 3s
+pkill bash
+
