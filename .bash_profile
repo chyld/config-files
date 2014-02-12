@@ -15,8 +15,9 @@ NODE_PATH=/usr/local/node/bin
 REDIS_PATH=/usr/local/redis/bin
 PGSQL_PATH=/usr/local/pgsql/bin
 RVM_PATH=$HOME/.rvm/bin
+MONGODB_PATH=/usr/local/mongodb/bin
 
-export PATH=$PATH:$GIT_PATH:$NODE_PATH:$REDIS_PATH:$PGSQL_PATH:$RVM_PATH
+export PATH=$PATH:$GIT_PATH:$NODE_PATH:$REDIS_PATH:$PGSQL_PATH:$RVM_PATH:$MONGODB_PATH
 export EDITOR=vim
 
 function getip
